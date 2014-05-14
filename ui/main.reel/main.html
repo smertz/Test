@@ -25,9 +25,13 @@
             "prototype": "digit/ui/slider.reel",
             "properties": {
                 "element": {"#": "slider"},
+                "axis": "horizontal",
                 "max": 100,
                 "min": 0,
                 "value": 50
+            },
+            "bindings": {
+                "@textField": {"<->": "@slider"}
             }
         },
         "textField": {
